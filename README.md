@@ -30,7 +30,7 @@ We compared AdaCS with traditional Transformer model as the baseline and other m
 - **WER:** refers the error throughout the entire process of normalizing the spoken text output of ASR.
 
 <table style="border-collapse:collapse; width:100%; margin: 0 auto; text-align:center; border: 1px solid;">
-  <caption><b>Evaluation results on the test-general and test-medical sets</b></caption>
+  <caption style="text-align:center;"><b>Evaluation results on the test-general and test-medical sets</b></caption>
   <thead style="border: 1px solid;">
     <tr>
       <th rowspan="2" style="text-align:center; border: 1px solid;">Model</th>
@@ -50,108 +50,108 @@ We compared AdaCS with traditional Transformer model as the baseline and other m
   </thead>
   <tbody style="border: 1px solid;">
     <tr>
-      <td style="border: 1px solid;">Transformers</td>
-      <td style="border: 1px solid;">None</td>
-      <td style="border: 1px solid;">15.9</td>
-      <td style="border: 1px solid;">73.9</td>
-      <td style="border: 1px solid;">28.5</td>
-      <td style="border: 1px solid;">29.5</td>
-      <td style="border: 1px solid;">86.3</td>
-      <td style="border: 1px solid;">37.1</td>
-      <td style="border: 1px solid;">6.6</td>
+      <td style="text-align:center; border: 1px solid;">Transformers</td>
+      <td style="text-align:center; border: 1px solid;">None</td>
+      <td style="text-align:center; border: 1px solid;">15.9</td>
+      <td style="text-align:center; border: 1px solid;">73.9</td>
+      <td style="text-align:center; border: 1px solid;">28.5</td>
+      <td style="text-align:center; border: 1px solid;">29.5</td>
+      <td style="text-align:center; border: 1px solid;">86.3</td>
+      <td style="text-align:center; border: 1px solid;">37.1</td>
+      <td style="text-align:center; border: 1px solid;">6.6</td>
     </tr>
     <tr>
       <td rowspan="3" style="border: 1px solid;">GPT-4o</td>
-      <td style="border: 1px solid;">None</td>
-      <td style="border: 1px solid;">8.2</td>
-      <td style="border: 1px solid;">76.3</td>
-      <td style="border: 1px solid;">15.4</td>
-      <td style="border: 1px solid;">9.1</td>
-      <td style="border: 1px solid;">72.4</td>
-      <td style="border: 1px solid;">15</td>
-      <td style="border: 1px solid;">0.11</td>
+      <td style="text-align:center; border: 1px solid;">None</td>
+      <td style="text-align:center; border: 1px solid;">8.2</td>
+      <td style="text-align:center; border: 1px solid;">76.3</td>
+      <td style="text-align:center; border: 1px solid;">15.4</td>
+      <td style="text-align:center; border: 1px solid;">9.1</td>
+      <td style="text-align:center; border: 1px solid;">72.4</td>
+      <td style="text-align:center; border: 1px solid;">15</td>
+      <td style="text-align:center; border: 1px solid;">0.11</td>
     </tr>
     <tr>
-      <td style="border: 1px solid;">Words</td>
-      <td style="border: 1px solid;">8.7</td>
-      <td style="border: 1px solid;">70.3</td>
-      <td style="border: 1px solid;">14.7</td>
-      <td style="border: 1px solid;">9.8</td>
-      <td style="border: 1px solid;">68.9</td>
-      <td style="border: 1px solid;">14.7</td>
-      <td style="border: 1px solid;">0.08</td>
+      <td style="text-align:center; border: 1px solid;">Words</td>
+      <td style="text-align:center; border: 1px solid;">8.7</td>
+      <td style="text-align:center; border: 1px solid;">70.3</td>
+      <td style="text-align:center; border: 1px solid;">14.7</td>
+      <td style="text-align:center; border: 1px solid;">9.8</td>
+      <td style="text-align:center; border: 1px solid;">68.9</td>
+      <td style="text-align:center; border: 1px solid;">14.7</td>
+      <td style="text-align:center; border: 1px solid;">0.08</td>
     </tr>
     <tr>
-      <td style="border: 1px solid;">Phrases</td>
-      <td style="border: 1px solid;">9</td>
-      <td style="border: 1px solid;">67.9</td>
-      <td style="border: 1px solid;">14.8</td>
-      <td style="border: 1px solid;">9.8</td>
-      <td style="border: 1px solid;">69</td>
-      <td style="border: 1px solid;">14.7</td>
-      <td style="border: 1px solid;">0.08</td>
+      <td style="text-align:center; border: 1px solid;">Phrases</td>
+      <td style="text-align:center; border: 1px solid;">9</td>
+      <td style="text-align:center; border: 1px solid;">67.9</td>
+      <td style="text-align:center; border: 1px solid;">14.8</td>
+      <td style="text-align:center; border: 1px solid;">9.8</td>
+      <td style="text-align:center; border: 1px solid;">69</td>
+      <td style="text-align:center; border: 1px solid;">14.7</td>
+      <td style="text-align:center; border: 1px solid;">0.08</td>
     </tr>
     <tr>
       <td rowspan="3" style="border: 1px solid;">AdapITN</td>
-      <td style="border: 1px solid;">None</td>
-      <td style="border: 1px solid;">19.2</td>
-      <td style="border: 1px solid;">61.3</td>
-      <td style="border: 1px solid;">19.1</td>
-      <td style="border: 1px solid;">25.3</td>
-      <td style="border: 1px solid;">62.3</td>
-      <td style="border: 1px solid;">24.4</td>
-      <td style="border: 1px solid;"><strong><u>25</u></strong></td>
+      <td style="text-align:center; border: 1px solid;">None</td>
+      <td style="text-align:center; border: 1px solid;">19.2</td>
+      <td style="text-align:center; border: 1px solid;">61.3</td>
+      <td style="text-align:center; border: 1px solid;">19.1</td>
+      <td style="text-align:center; border: 1px solid;">25.3</td>
+      <td style="text-align:center; border: 1px solid;">62.3</td>
+      <td style="text-align:center; border: 1px solid;">24.4</td>
+      <td style="text-align:center; border: 1px solid;"><strong><u>25</u></strong></td>
     </tr>
     <tr>
-      <td style="border: 1px solid;">Words</td>
-      <td style="border: 1px solid;">3.0</td>
-      <td style="border: 1px solid;">33.7</td>
-      <td style="border: 1px solid;">6.4</td>
-      <td style="border: 1px solid;">3.1</td>
-      <td style="border: 1px solid;">43.0</td>
-      <td style="border: 1px solid;">7.6</td>
-      <td style="border: 1px solid;">14.9</td>
+      <td style="text-align:center; border: 1px solid;">Words</td>
+      <td style="text-align:center; border: 1px solid;">3.0</td>
+      <td style="text-align:center; border: 1px solid;">33.7</td>
+      <td style="text-align:center; border: 1px solid;">6.4</td>
+      <td style="text-align:center; border: 1px solid;">3.1</td>
+      <td style="text-align:center; border: 1px solid;">43.0</td>
+      <td style="text-align:center; border: 1px solid;">7.6</td>
+      <td style="text-align:center; border: 1px solid;">14.9</td>
     </tr>
     <tr>
-      <td style="border: 1px solid;">Phrases</td>
-      <td style="border: 1px solid;">2.62</td>
-      <td style="border: 1px solid;">42.1</td>
-      <td style="border: 1px solid;">7.3</td>
-      <td style="border: 1px solid;">3.3</td>
-      <td style="border: 1px solid;">55.4</td>
-      <td style="border: 1px solid;">8.9</td>
-      <td style="border: 1px solid;">9.45</td>
+      <td style="text-align:center; border: 1px solid;">Phrases</td>
+      <td style="text-align:center; border: 1px solid;">2.62</td>
+      <td style="text-align:center; border: 1px solid;">42.1</td>
+      <td style="text-align:center; border: 1px solid;">7.3</td>
+      <td style="text-align:center; border: 1px solid;">3.3</td>
+      <td style="text-align:center; border: 1px solid;">55.4</td>
+      <td style="text-align:center; border: 1px solid;">8.9</td>
+      <td style="text-align:center; border: 1px solid;">9.45</td>
     </tr>
     <tr>
       <td rowspan="3" style="border: 1px solid;">AdaCS (ours)</td>
-      <td style="border: 1px solid;">None</td>
-      <td style="border: 1px solid;">20.7</td>
-      <td style="border: 1px solid;">62.5</td>
-      <td style="border: 1px solid;">20.2</td>
-      <td style="border: 1px solid;">28.1</td>
-      <td style="border: 1px solid;">69.3</td>
-      <td style="border: 1px solid;">26.4</td>
-      <td style="border: 1px solid;">23.6</td>
+      <td style="text-align:center; border: 1px solid;">None</td>
+      <td style="text-align:center; border: 1px solid;">20.7</td>
+      <td style="text-align:center; border: 1px solid;">62.5</td>
+      <td style="text-align:center; border: 1px solid;">20.2</td>
+      <td style="text-align:center; border: 1px solid;">28.1</td>
+      <td style="text-align:center; border: 1px solid;">69.3</td>
+      <td style="text-align:center; border: 1px solid;">26.4</td>
+      <td style="text-align:center; border: 1px solid;">23.6</td>
     </tr>
     <tr>
-      <td style="border: 1px solid;">Words</td>
-      <td style="border: 1px solid;">1.4</td>
-      <td style="border: 1px solid;">18.6</td>
-      <td style="border: 1px solid;">3.3</td>
-      <td style="border: 1px solid;"><strong><u>2.2</u></strong></td>
-      <td style="border: 1px solid;"><strong><u>29.0</u></strong></td>
-      <td style="border: 1px solid;"><strong><u>4.8</u></strong></td>
-      <td style="border: 1px solid;">14.7</td>
+      <td style="text-align:center; border: 1px solid;">Words</td>
+      <td style="text-align:center; border: 1px solid;">1.4</td>
+      <td style="text-align:center; border: 1px solid;">18.6</td>
+      <td style="text-align:center; border: 1px solid;">3.3</td>
+      <td style="text-align:center; border: 1px solid;"><strong><u>2.2</u></strong></td>
+      <td style="text-align:center; border: 1px solid;"><strong><u>29.0</u></strong></td>
+      <td style="text-align:center; border: 1px solid;"><strong><u>4.8</u></strong></td>
+      <td style="text-align:center; border: 1px solid;">14.7</td>
     </tr>
     <tr>
-      <td style="border: 1px solid;">Phrases</td>
-      <td style="border: 1px solid;"><strong><u>1.2</u></strong></td>
-      <td style="border: 1px solid;"><strong><u>16.1</u></strong></td>
-      <td style="border: 1px solid;"><strong><u>2.8</u></strong></td>
-      <td style="border: 1px solid;">3.1</td>
-      <td style="border: 1px solid;">50.1</td>
-      <td style="border: 1px solid;">7.8</td>
-      <td style="border: 1px solid;">8.92</td>
+      <td style="text-align:center; border: 1px solid;">Phrases</td>
+      <td style="text-align:center; border: 1px solid;"><strong><u>1.2</u></strong></td>
+      <td style="text-align:center; border: 1px solid;"><strong><u>16.1</u></strong></td>
+      <td style="text-align:center; border: 1px solid;"><strong><u>2.8</u></strong></td>
+      <td style="text-align:center; border: 1px solid;">3.1</td>
+      <td style="text-align:center; border: 1px solid;">50.1</td>
+      <td style="text-align:center; border: 1px solid;">7.8</td>
+      <td style="text-align:center; border: 1px solid;">8.92</td>
     </tr>
   </tbody>
 </table>
