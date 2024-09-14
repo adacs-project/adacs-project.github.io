@@ -189,7 +189,7 @@ Examples of reference, input, words and phrases bias list in the general-test an
 <table style="border-collapse:collapse; width:100%; margin: 0 auto; border: 1px solid;">
   <tbody>
     <tr>
-      <td style="text-align:center; border: 1px solid;"><strong>test-general - easy sample</strong></td>
+      <td style="text-align:center !important; border: 1px solid;"><strong>test-general - easy sample</strong></td>
     </tr>
     <tr>
       <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Reference:</strong> Ông học tập thiết kế động cơ cơ bản từ <em><u>Chevrolet</u></em> và nghiên cứu khung gầm xe tải của <em><u>Ford</u></em>.</td>
@@ -201,7 +201,7 @@ Examples of reference, input, words and phrases bias list in the general-test an
       <td style="border: 1px solid;"><strong>Words bias:</strong> Chevrolet, Ford</td>
     </tr>
     <tr>
-      <td style="text-align:center; border: 1px solid;"><strong>test-medical - hard sample</strong></td>
+      <td style="text-align:center !important; border: 1px solid;"><strong>test-medical - hard sample</strong></td>
     </tr>
     <tr>
       <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Reference:</strong> <em><u>Botulism Antitoxin Heptavalent</u></em> là thuốc giải duy nhất cho những trường hợp nhiễm vi khuẩn <em><u>Clostridium botulinum</u></em>.</td>
