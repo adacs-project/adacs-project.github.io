@@ -163,12 +163,14 @@ adaptability within both general and domain-specific datasets.
 
 ### 📈 Result & Analysis
 
-<figure align="center">
-  <figcaption style="text-align:center;"><b>Performance of AdaCS vs AdapITN as the size of the bias list increases</b></figcaption>
-  <img
-  src="./assets/adacs_analysis.png"
-  alt="Model analysis">
-</figure>
+<div align="center">
+  <figure>
+    <figcaption style="text-align:center;"><b>Performance of AdaCS vs AdapITN as the size of the bias list increases</b></figcaption>
+    <img
+    src="./assets/adacs_analysis.png"
+    alt="Model analysis">
+  </figure>
+</div>
 
 In general,the effectiveness of both models that employ context-aware biasing tends to decline as the quantity of bias words rises. However, their CS-WER remains superior to the baseline. Furthermore, it is shown that AdaCS consistently outperforms AdapITN as the number of elements in the bias list changes across both test sets.
 
