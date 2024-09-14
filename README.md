@@ -8,7 +8,9 @@ In this study, we propose AdaCS, a normalization model integrates an adaptive bi
 
 Experience AdaCS in action and try it out with our [Live Demo](https://adacs-project.github.io)
 
-![Model demo](./assets/adacs_demo.gif)
+<div align="center" style="width:100%;">
+  <img src="./assets/adacs_demo.gif" alt="Model demo">
+</div>
 
 ## 🤖 Model Release
 
@@ -16,11 +18,15 @@ Experience AdaCS in action and try it out with our [Live Demo](https://adacs-pro
 
 AdaCS comprises a bias attention module, an encoder, and a decoder. Both the encoder and decoder blocks in AdaCS are integrated with the bias attention module to aid in the accurate and efficient identification and nor-malization of CS phrases, respectively.
 
-![Model architecture](./assets/adacs_arch.png)
+<div align="center" style="width:100%;">
+  <img src="./assets/adacs_arch.png" alt="Model architecture">
+</div>
 
 An example of the impact of the word bias list and phrase bias list on the Tagger of AdaCS and AdapITN:
 
-![Model example](./assets/adacs_example.png)
+<div align="center" style="width:100%;">
+  <img src="./assets/adacs_example.png" alt="Model example">
+</div>
 
 ### 📊 Experiment setup
 
@@ -29,7 +35,7 @@ We compared AdaCS with traditional Transformer model as the baseline and other m
 - **CS-WER:** refers to the WER on the CS normalization.
 - **WER:** refers the error throughout the entire process of normalizing the spoken text output of ASR.
 
-<div align="center">
+<div align="center" style="width:100%;">
   <table style="border-collapse:collapse; width:100%; margin: 0 auto; text-align:center; border: 1px solid;">
     <caption style="text-align:center;"><b>Evaluation results on the test-general and test-medical sets</b></caption>
     <thead style="border: 1px solid;">
@@ -165,7 +171,7 @@ adaptability within both general and domain-specific datasets.
 
 ### 📈 Result & Analysis
 
-<div align="center">
+<div align="center" style="width:100%;">
   <figure>
     <figcaption style="text-align:center;"><b>Performance of AdaCS vs AdapITN as the size of the bias list increases</b></figcaption>
     <img
@@ -191,7 +197,7 @@ We constructed a dataset for intra-sentential CS for Vietnamese (a low-resource 
 
 Examples of reference, input, words and phrases bias list in the general-test and medical-test, at "easy" and "hard" levels:
 
-<div align="center">
+<div align="center" style="width:100%;">
   <table style="border-collapse:collapse; width:100%; margin: 0 auto; border: 1px solid;">
     <tbody>
       <tr style="text-align:center !important;">
