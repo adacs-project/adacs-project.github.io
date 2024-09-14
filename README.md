@@ -163,7 +163,7 @@ adaptability within both general and domain-specific datasets.
 
 ### 📈 Result & Analysis
 
-<figure>
+<figure align="center">
   <figcaption style="text-align:center;"><b>Performance of AdaCS vs AdapITN as the size of the bias list increases</b></figcaption>
   <img
   src="./assets/adacs_analysis.png"
