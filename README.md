@@ -206,10 +206,10 @@ Examples of reference, input, words and phrases bias list in the general-test an
         <td style="text-align:center !important; border: 1px solid;"><strong>test-general - easy sample</strong></td>
       </tr>
       <tr>
-        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Reference:</strong> Ông học tập thiết kế động cơ cơ bản từ <em><u>Chevrolet</u></em> và nghiên cứu khung gầm xe tải của <em><u>Ford</u></em>.</td>
+        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Reference:</strong> Ông học tập thiết kế động cơ cơ bản từ <em style="text-decoration:underline">Chevrolet</em> và nghiên cứu khung gầm xe tải của <em style="text-decoration:underline">Ford</em>.</td>
       </tr>
       <tr>
-        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Input:</strong> Ông học tập thiết kế động cơ cơ bản từ <em><u>che vô lét</u></em> và nghiên cứu khung gầm xe tải của <em><u>pho</u></em>.</td>
+        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Input:</strong> Ông học tập thiết kế động cơ cơ bản từ <em style="text-decoration:underline">che vô lét</em> và nghiên cứu khung gầm xe tải của <em style="text-decoration:underline">pho</em>.</td>
       </tr>
       <tr>
         <td style="border: 1px solid;"><strong>Words bias:</strong> Chevrolet, Ford</td>
@@ -218,10 +218,10 @@ Examples of reference, input, words and phrases bias list in the general-test an
         <td style="text-align:center; border: 1px solid;"><strong>test-medical - hard sample</strong></td>
       </tr>
       <tr>
-        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Reference:</strong> <em><u>Botulism Antitoxin Heptavalent</u></em> là thuốc giải duy nhất cho những trường hợp nhiễm vi khuẩn <em><u>Clostridium botulinum</u></em>.</td>
+        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Reference:</strong> <em style="text-decoration:underline">Botulism Antitoxin Heptavalent</em> là thuốc giải duy nhất cho những trường hợp nhiễm vi khuẩn <em style="text-decoration:underline">Clostridium botulinum</em>.</td>
       </tr>
       <tr>
-        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Input:</strong> <em><u>Bô tu lim an ti tô xin hép ta va len</u></em> là thuốc giải duy nhất cho những trường hợp nhiễm vi khuẩn <em><u>cờ lo tờ ri đi um bô tu li num</u></em>.</td>
+        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Input:</strong> <em style="text-decoration:underline">Bô tu lim an ti tô xin hép ta va len</em> là thuốc giải duy nhất cho những trường hợp nhiễm vi khuẩn <em style="text-decoration:underline">cờ lo tờ ri đi um bô tu li num</em>.</td>
       </tr>
       <tr>
         <td style="border: 1px solid;"><strong>Phrases bias:</strong> Botulism Antitoxin Heptavalent, Clostridium botulinum</td>
