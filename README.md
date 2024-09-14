@@ -201,9 +201,9 @@ Examples of reference, input, words and phrases bias list in the general-test an
 
 <div align="center" style="width:100%;">
   <table style="border-collapse:collapse; width:100%; margin: 0 auto; border: 1px solid;">
-    <thead style="border: 1px solid; width:100%;">
+    <thead style="border: 1px solid;">
       <tr>
-        <th style="text-align:center; border: 1px solid;"><strong>test-general - easy sample</strong></td>
+        <th style="text-align:center; border: 1px solid;"><strong>test-general - easy sample</strong></th>
       </tr>
     </thead>
     <tbody>
@@ -217,11 +217,9 @@ Examples of reference, input, words and phrases bias list in the general-test an
         <td style="border: 1px solid;"><strong>Words bias:</strong> Chevrolet, Ford</td>
       </tr>
     </tbody>
-  </table>
-  <table style="border-collapse:collapse; width:100%; margin: 0 auto; border: 1px solid;">
-    <thead style="border: 1px solid; width:100%;">
+    <thead style="border: 1px solid;">
       <tr>
-        <th style="text-align:center; border: 1px solid;"><strong>test-medical - hard sample</strong></td>
+        <th style="text-align:center; border: 1px solid;"><strong>test-medical - hard sample</strong></th>
       </tr>
     </thead>
     <tbody>
