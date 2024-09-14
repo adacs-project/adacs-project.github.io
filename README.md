@@ -9,7 +9,7 @@ In this study, we propose AdaCS, a normalization model integrates an adaptive bi
 Experience AdaCS in action and try it out with our [Live Demo](https://adacs-project.github.io)
 
 <div align="center" style="width:100%;">
-  <img src="./assets/adacs_demo.gif" alt="Model demo">
+  <img style="width:100%;" src="./assets/adacs_demo.gif" alt="Model demo">
 </div>
 
 ## 🤖 Model Release
@@ -19,13 +19,15 @@ Experience AdaCS in action and try it out with our [Live Demo](https://adacs-pro
 AdaCS comprises a bias attention module, an encoder, and a decoder. Both the encoder and decoder blocks in AdaCS are integrated with the bias attention module to aid in the accurate and efficient identification and nor-malization of CS phrases, respectively.
 
 <div align="center" style="width:100%;">
-  <img src="./assets/adacs_arch.png" alt="Model architecture">
+  <img style="width:100%;" src="./assets/adacs_arch.png" alt="Model architecture">
 </div>
+<p></p>
 
 An example of the impact of the word bias list and phrase bias list on the Tagger of AdaCS and AdapITN:
 
+<p></p>
 <div align="center" style="width:100%;">
-  <img src="./assets/adacs_example.png" alt="Model example">
+  <img style="width:100%;" src="./assets/adacs_example.png" alt="Model example">
 </div>
 
 ### 📊 Experiment setup
