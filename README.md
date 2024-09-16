@@ -200,18 +200,18 @@ We constructed a dataset for intra-sentential CS for Vietnamese (a low-resource 
 Examples of reference, input, words and phrases bias list in the general-test and medical-test, at "easy" and "hard" levels:
 
 <div align="center" style="width:100%;">
-  <table style="border-collapse:collapse; width:100%; margin: 0 auto; border: 1px solid;">
+  <table style="border-collapse:collapse; width:100%; margin: 0 auto;">
     <thead style="border: 1px solid;">
       <tr>
         <th style="text-align:center; border: 1px solid;"><strong>test-general - easy sample</strong></th>
       </tr>
     </thead>
-    <tbody>
+    <tbody style="border: 1px solid;">
       <tr>
-        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Reference:</strong> Ông học tập thiết kế động cơ cơ bản từ <em>Chevrolet</em> và nghiên cứu khung gầm xe tải của <em>Ford</em>.</td>
+        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Reference:</strong> Ông học tập thiết kế động cơ cơ bản từ <em style="color:#0099FF;">Chevrolet</em> và nghiên cứu khung gầm xe tải của <em style="color:#0099FF;">Ford</em>.</td>
       </tr>
       <tr>
-        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Input:</strong> Ông học tập thiết kế động cơ cơ bản từ <em>che vô lét</em> và nghiên cứu khung gầm xe tải của <em>pho</em>.</td>
+        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Input:</strong> Ông học tập thiết kế động cơ cơ bản từ <em style="color:#0099FF;">che vô lét</em> và nghiên cứu khung gầm xe tải của <em style="color:#0099FF;">pho</em>.</td>
       </tr>
       <tr>
         <td style="border: 1px solid;"><strong>Words bias:</strong> Chevrolet, Ford</td>
@@ -222,12 +222,12 @@ Examples of reference, input, words and phrases bias list in the general-test an
         <th style="text-align:center; border: 1px solid;"><strong>test-medical - hard sample</strong></th>
       </tr>
     </thead>
-    <tbody>
+    <tbody style="border: 1px solid;">
       <tr>
-        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Reference:</strong> <em>Botulism Antitoxin Heptavalent</em> là thuốc giải duy nhất cho những trường hợp nhiễm vi khuẩn <em>Clostridium botulinum</em>.</td>
+        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Reference:</strong> <em style="color:#0099FF;">Botulism Antitoxin Heptavalent</em> là thuốc giải duy nhất cho những trường hợp nhiễm vi khuẩn <em style="color:#0099FF;">Clostridium botulinum</em>.</td>
       </tr>
       <tr>
-        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Input:</strong> <em>Bô tu lim an ti tô xin hép ta va len</em> là thuốc giải duy nhất cho những trường hợp nhiễm vi khuẩn <em>cờ lo tờ ri đi um bô tu li num</em>.</td>
+        <td style="border-left: 1px solid; border-right: 1px solid; border-top: 1px solid; border-bottom: 1px solid transparent;"><strong>Input:</strong> <em style="color:#0099FF;">Bô tu lim an ti tô xin hép ta va len</em> là thuốc giải duy nhất cho những trường hợp nhiễm vi khuẩn <em style="color:#0099FF;">cờ lo tờ ri đi um bô tu li num</em>.</td>
       </tr>
       <tr>
         <td style="border: 1px solid;"><strong>Phrases bias:</strong> Botulism Antitoxin Heptavalent, Clostridium botulinum</td>
