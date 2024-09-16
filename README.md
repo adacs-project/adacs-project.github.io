@@ -109,7 +109,7 @@ We compared AdaCS with traditional Transformer model as the baseline and other m
         <td style="text-align:center; border: 1px solid;">25.3</td>
         <td style="text-align:center; border: 1px solid;">62.3</td>
         <td style="text-align:center; border: 1px solid;">24.4</td>
-        <td style="text-align:center; border: 1px solid;"><strong><u>25</u></strong></td>
+        <td style="text-align:center; border: 1px solid;"><strong>25</strong></td>
       </tr>
       <tr>
         <td style="text-align:center; border: 1px solid;">Words</td>
@@ -147,16 +147,16 @@ We compared AdaCS with traditional Transformer model as the baseline and other m
         <td style="text-align:center; border: 1px solid;">1.4</td>
         <td style="text-align:center; border: 1px solid;">18.6</td>
         <td style="text-align:center; border: 1px solid;">3.3</td>
-        <td style="text-align:center; border: 1px solid;"><strong><u>2.2</u></strong></td>
-        <td style="text-align:center; border: 1px solid;"><strong><u>29.0</u></strong></td>
-        <td style="text-align:center; border: 1px solid;"><strong><u>4.8</u></strong></td>
+        <td style="text-align:center; border: 1px solid;"><strong>2.2</strong></td>
+        <td style="text-align:center; border: 1px solid;"><strong>29.0</strong></td>
+        <td style="text-align:center; border: 1px solid;"><strong>4.8</strong></td>
         <td style="text-align:center; border: 1px solid;">14.7</td>
       </tr>
       <tr>
         <td style="text-align:center; border: 1px solid;">Phrases</td>
-        <td style="text-align:center; border: 1px solid;"><strong><u>1.2</u></strong></td>
-        <td style="text-align:center; border: 1px solid;"><strong><u>16.1</u></strong></td>
-        <td style="text-align:center; border: 1px solid;"><strong><u>2.8</u></strong></td>
+        <td style="text-align:center; border: 1px solid;"><strong>1.2</strong></td>
+        <td style="text-align:center; border: 1px solid;"><strong>16.1</strong></td>
+        <td style="text-align:center; border: 1px solid;"><strong>2.8</strong></td>
         <td style="text-align:center; border: 1px solid;">3.1</td>
         <td style="text-align:center; border: 1px solid;">50.1</td>
         <td style="text-align:center; border: 1px solid;">7.8</td>
