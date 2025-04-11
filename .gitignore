@@ -1,3 +1,5 @@
 __pycache__
 adacs_model
 .ipynb_checkpoints
+.env
+.DS_Store

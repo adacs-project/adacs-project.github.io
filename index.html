@@ -26,6 +26,7 @@ stlite.mount(
 import json
 import re
 import random
+from infer import format_text
 
 # Style for the app
 st.markdown("""
@@ -84,13 +85,8 @@ def submit_bias_words():
             st.warning("Bias word already extists. Please check the input bias words list.")
     st.session_state.widget_bias_words = None
 
-def inference_original_model(sentence, bias_words):
-    output_sentence = "Câu của model gốc"
-    tags = ['<s>', 'Theo', '<mask>[0](hát x)', '<mask>[1](pan t)', 'Phó', 'chủ', 'tịch', 'tổ', 'chức', 'tư', 'vấn', '<mask>[2](óp dơ vờ rì sợt phao đây sừn)', 'trụ', 'sở', '<mask>[3](đê li)', 'trong', 'những', 'ngày', 'đầu', 'lập', 'khối,', 'Ấn', 'Độ', 'nghĩ', 'rằng', 'với', 'sự', 'giúp', 'đỡ', 'của', 'Nga,', 'họ', 'có', 'thể', 'ứng', 'phó', 'với', 'Trung', 'Quốc', 'tốt', 'hơn', '</s>']
-    return output_sentence, tags
-
 def inference_our_model(sentence, bias_words):
-    output_sentence = "Theo harsh pant Phó chủ tịch tổ chức tư vấn observer research foundation trụ sở delhi trong những ngày đầu lập khối, Ấn Độ nghĩ rằng với sự giúp đỡ của Nga, họ có thể ứng phó với Trung Quốc tốt hơn"
+    output_sentence = format_text(sentence, bias_words)
     tags = ['<s>', 'Theo', '<mask>[0](hát x)', '<mask>[1](pan t)', 'Phó', 'chủ', 'tịch', 'tổ', 'chức', 'tư', 'vấn', '<mask>[2](óp dơ vờ rì sợt phao đây sừn)', 'trụ', 'sở', '<mask>[3](đê li)', 'trong', 'những', 'ngày', 'đầu', 'lập', 'khối,', 'Ấn', 'Độ', 'nghĩ', 'rằng', 'với', 'sự', 'giúp', 'đỡ', 'của', 'Nga,', 'họ', 'có', 'thể', 'ứng', 'phó', 'với', 'Trung', 'Quốc', 'tốt', 'hơn', '</s>']
     return output_sentence, tags
 
@@ -110,14 +106,7 @@ def style_output(tags):
 
 def display_output(sentence, bias_words):
 
-    original_model_sentence, original_model_tags = inference_original_model(sentence, bias_words)
     our_model_sentence, our_model_tags = inference_our_model(sentence, bias_words)
-
-    st.markdown("---")
-
-    if sentence is not None:
-        st.markdown(f"**Original sentence:**")
-        st.markdown(f"""<p class="stCustomFont">{sentence}</p>""", unsafe_allow_html=True)
 
     st.markdown("---")
 
@@ -133,13 +122,13 @@ def display_output(sentence, bias_words):
 
     st.markdown("---")
 
-    st.markdown(f"**Original model:**")
-    st.markdown(f"""<p class="stCustomFont">{style_output(original_model_tags)}</p>""", unsafe_allow_html=True)
-    st.markdown(f"""<p class="stCustomFont">{original_model_sentence}</p>""", unsafe_allow_html=True)
+    if sentence is not None:
+        st.markdown(f"**Original sentence:**")
+        st.markdown(f"""<p class="stCustomFont">{sentence}</p>""", unsafe_allow_html=True)
 
     st.markdown("---")
 
-    st.markdown(f"**Our model:**")
+    st.markdown(f"**Output:**")
     st.markdown(f"""<p class="stCustomFont">{style_output(our_model_tags)}</p>""", unsafe_allow_html=True)
     st.markdown(f"""<p class="stCustomFont">{our_model_sentence}</p>""", unsafe_allow_html=True)
 
