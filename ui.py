@@ -62,9 +62,8 @@ def submit_bias_words():
     st.session_state.widget_bias_words = None
 
 def inference_our_model(sentence, bias_words):
-    output_sentence = format_text(sentence, bias_words)
-    tags = ['<s>', 'Theo', '<mask>[0](hát x)', '<mask>[1](pan t)', 'Phó', 'chủ', 'tịch', 'tổ', 'chức', 'tư', 'vấn', '<mask>[2](óp dơ vờ rì sợt phao đây sừn)', 'trụ', 'sở', '<mask>[3](đê li)', 'trong', 'những', 'ngày', 'đầu', 'lập', 'khối,', 'Ấn', 'Độ', 'nghĩ', 'rằng', 'với', 'sự', 'giúp', 'đỡ', 'của', 'Nga,', 'họ', 'có', 'thể', 'ứng', 'phó', 'với', 'Trung', 'Quốc', 'tốt', 'hơn', '</s>']
-    return output_sentence, tags
+    output_sentence, output_tags = format_text(sentence, bias_words)
+    return output_sentence, output_tags
 
 def style_output(tags):
     style_sentence = ""

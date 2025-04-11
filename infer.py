@@ -360,17 +360,17 @@ def infer(text_input_list, bias_list):
         spoken_norm_output, spoken_norm_score = generate_spoken_norm(list_spoken_features, list_features_mask, bias_features)
     else:
         spoken_norm_output, spoken_norm_score = [], None
-
-    return reformat_normed_term(text_input_list_pre_norm, spoken_norm_output, spoken_norm_score, threshold=15, debug=False)
+    return reformat_normed_term(text_input_list_pre_norm, spoken_norm_output, spoken_norm_score, threshold=15, debug=False)[0], text_input_list_pre_norm[0]
 
 
 def format_text(text_input, list_bias_input):
 #         print('{}\n{}\n\n'.format(text_input, list_bias_input))
-        bias_list = list_bias_input
-        norm_result = infer([text_input], bias_list)
-        return norm_result[0]
+    bias_list = list_bias_input
+    norm_result_text, pre_norm_result = infer([text_input], bias_list)
+    return norm_result_text, pre_norm_result
 
 if __name__ == "__main__":
     text = "cầu thủ mi khai cô lô câu pam mơ mu đờ rích là tiền đạo của cheo si"
-    output = format_text(text, ["mikhaicolo", "cole", "palmer", "mudryk", "palmer", "chelsea"])
+    output, pre_norm = format_text(text, ["mikhaicolo", "cole", "palmer", "mudryk", "palmer", "chelsea"])
     print(output)
+    print(pre_norm)
