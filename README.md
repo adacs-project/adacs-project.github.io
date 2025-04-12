@@ -187,7 +187,7 @@ In general,the effectiveness of both models that employ context-aware biasing te
 
 ### 📥 Download Model
 
-- Model checkpoint: [AdaCS Model](https://github.com/adacs-project/repository/releases)
+- Model checkpoint: [AdaCS Model](https://huggingface.co/adacs/adacs_model)
 
 ## 💾 Dataset Release
 
